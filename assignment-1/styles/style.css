@@ -114,6 +114,12 @@ ul>li>p {
     height: 16px;
 }
 
+/* My learnings */
+.my-learning-container {
+    background-color: #005FAC;
+}
+
+
 /* My plans section styling */
 .plan-section {
     margin-block: 130px;
