@@ -1,0 +1,50 @@
+/* For all elements */
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+
+/* Banner section styling */
+.banner-container {
+
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height: 808px;
+}
+
+.banner-content {
+    padding: 216px 230px 160px 900px;
+}
+
+.banner-title {
+    text-align: right;
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+
+.section-description {
+    text-align: right;
+    font-size: 16px;
+    color: white;
+}
+
+.btn-primary {
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 64px;
+    border: none;
+    text-align: right;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 26px;
+}
+.banner-content div{
+    text-align: right;
+}
+
+.banner-content, h2, p, div{
+    margin-bottom: 30px;
+}
