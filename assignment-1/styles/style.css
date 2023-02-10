@@ -140,13 +140,14 @@ ul>li {
 }
 
 /* Call now section styling */
-.call-section{
+.call-section {
     margin-bottom: 130px;
 }
+
 .call-now-container {
     background-image:
         linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 95, 172, 0)), url(../images/watch.png);
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     margin-block: 0;
     width: 1140px;
     height: 300px;
@@ -160,7 +161,38 @@ ul>li {
     padding-top: 60px;
     padding-left: 64px;
 }
-.call-now-container>button{
+
+.call-now-container>button {
     margin-top: 24px;
     margin-left: 64px;
+}
+
+/* footer section styling */
+.footer-section {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+    padding: 126px 230px;
+}
+
+.footer-items>.section-title,
+.section-description {
+    text-align: left;
+    color: white;
+}
+
+.social-media {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-items>input {
+    width: 325px;
+    height: 62.24px;
+    padding-inline: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
 }
