@@ -11,6 +11,7 @@
     font-weight: 700;
     font-size: 40px;
 }
+
 /* section description */
 .section-description {
     text-align: right;
@@ -37,7 +38,7 @@
     color: white;
 }
 
-.banner-content>.section-description{
+.banner-content>.section-description {
     color: white;
 }
 
@@ -111,7 +112,7 @@ ul>li {
 
 /* My plans section styling */
 .plan-section {
-    margin-top: 130px;
+    margin-block: 130px;
 }
 
 .plan-section>.section-title {
@@ -126,12 +127,40 @@ ul>li {
 .plan-card {
     text-align: center;
 }
-.plan-card>.section-description{
+
+.plan-card>.section-description {
     text-align: center;
 }
+
 .card-heading {
     color: #151414;
     font-weight: 700;
     font-size: 25px;
     margin-top: 12px;
+}
+
+/* Call now section styling */
+.call-section{
+    margin-bottom: 130px;
+}
+.call-now-container {
+    background-image:
+        linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 95, 172, 0)), url(../images/watch.png);
+        background-repeat: no-repeat;
+    margin-block: 0;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.call-now-container>.section-title {
+    color: white;
+    width: 459px;
+    padding-top: 60px;
+    padding-left: 64px;
+}
+.call-now-container>button{
+    margin-top: 24px;
+    margin-left: 64px;
 }
