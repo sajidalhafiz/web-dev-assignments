@@ -5,12 +5,19 @@
     font-weight: 400;
 }
 
+/* section title styling */
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+} 
+
 /* Banner section styling */
 .banner-container {
-
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    height: 808px;
+    background-position: center;
+    background-size: cover;
 }
 
 .banner-content {
@@ -41,10 +48,57 @@
     font-size: 20px;
     padding: 20px 26px;
 }
-.banner-content div{
+
+.banner-content div {
     text-align: right;
 }
 
-.banner-content, h2, p, div{
+.banner-content,
+h2,
+p,
+div {
     margin-bottom: 30px;
+}
+
+/* My failure section styling */
+.section-container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 190px;
+    margin-top: 130px;
+}
+
+.my-failure-content {
+    margin: 0;
+}
+
+.my-failure-content,
+h3,
+p,
+ul {
+    margin-bottom: 24px;
+}
+
+.my-failure-content > .section-title{
+    width: 288px;
+}
+
+.my-failure-content > .section-description{
+    color: #444343;
+    text-align: left;
+}
+ul{
+    padding: 0;
+}
+ul>li{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+.my-failure-icon{
+    width: 16px;
+    height: 16px;
 }
