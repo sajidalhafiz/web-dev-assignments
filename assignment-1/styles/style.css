@@ -10,7 +10,13 @@
     color: #151414;
     font-weight: 700;
     font-size: 40px;
-} 
+}
+/* section description */
+.section-description {
+    text-align: right;
+    font-size: 16px;
+    color: #444343;
+}
 
 /* Banner section styling */
 .banner-container {
@@ -31,9 +37,7 @@
     color: white;
 }
 
-.section-description {
-    text-align: right;
-    font-size: 16px;
+.banner-content>.section-description{
     color: white;
 }
 
@@ -66,7 +70,7 @@ div {
     margin: auto;
     display: flex;
     align-items: center;
-    gap: 190px;
+    gap: 90px;
     margin-top: 130px;
 }
 
@@ -81,24 +85,53 @@ ul {
     margin-bottom: 24px;
 }
 
-.my-failure-content > .section-title{
+.my-failure-content>.section-title {
     width: 288px;
 }
 
-.my-failure-content > .section-description{
+.my-failure-content>.section-description {
     color: #444343;
     text-align: left;
 }
-ul{
+
+ul {
     padding: 0;
 }
-ul>li{
+
+ul>li {
     list-style: none;
     display: flex;
     gap: 12px;
 }
 
-.my-failure-icon{
+.my-failure-icon {
     width: 16px;
     height: 16px;
+}
+
+/* My plans section styling */
+.plan-section {
+    margin-top: 130px;
+}
+
+.plan-section>.section-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.plan-section>.section-container {
+    justify-content: space-between;
+}
+
+.plan-card {
+    text-align: center;
+}
+.plan-card>.section-description{
+    text-align: center;
+}
+.card-heading {
+    color: #151414;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 12px;
 }
