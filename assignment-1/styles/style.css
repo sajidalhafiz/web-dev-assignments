@@ -105,6 +105,10 @@ ul>li {
     gap: 12px;
 }
 
+ul>li>p {
+    color: #444343;
+}
+
 .my-failure-icon {
     width: 16px;
     height: 16px;
@@ -176,8 +180,11 @@ ul>li {
     padding: 126px 230px;
 }
 
-.footer-items>.section-title,
-.section-description {
+.footer-items>.section-title {
+    color: white;
+}
+
+.footer-items>.section-description {
     text-align: left;
     color: white;
 }
