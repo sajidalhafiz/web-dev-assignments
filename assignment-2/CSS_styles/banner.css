@@ -8,14 +8,19 @@ body {
 .btn-primary {
     background: #FF900E;
     border-radius: 8px;
-    width: 180px;
-    height: 64px;
     border: none;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
     text-align: center;
     margin-top: 32px;
+    padding: 20px 40px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
 }
 
 .description {
@@ -82,16 +87,19 @@ ul li a {
     font-size: 64px;
     color: #131313;
 }
-.banner-content .description{
+
+.banner-content .description {
     padding-inline: 300px;
     padding-top: 30px;
     text-align: center;
 }
-.banner-image{
+
+.banner-image {
     border-radius: 8px;
-    margin-top: 50px;
+    margin-block: 50px;
 }
-.banner-image > img{
+
+.banner-image>img {
     width: 1440px;
     height: 700px;
 }
