@@ -1,0 +1,8 @@
+.contact-section{
+    text-align: center;
+    padding: 100px;
+    background-color: #004B88;
+}
+.contact-section .sponsor-content > p{
+    color: white;
+}
