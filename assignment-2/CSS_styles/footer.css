@@ -1,0 +1,10 @@
+footer{
+    width: 1440px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: auto;
+    padding-block: 30px;
+}
+footer p{
+    text-align: center;
+}
