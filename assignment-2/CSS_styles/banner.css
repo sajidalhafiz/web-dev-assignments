@@ -103,3 +103,35 @@ ul li a {
     width: 1440px;
     height: 700px;
 }
+
+@media screen and (max-width: 390px) {
+    header, .banner-content, .banner-section{
+        width: 380px;
+        margin: 0px;
+    }
+    .nav-bar {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+    }
+    ul {
+       flex-direction: column;
+        gap: 10px;
+    }
+    .description{
+        padding: 0;
+    }
+    .banner-content .description{
+        padding: 0;
+    }
+    .banner-image {
+        border-radius: 8px;
+        margin: 0px;
+    }
+    
+    .banner-image>img {
+        width: 360px;
+        height: 300px;
+    }
+    
+}

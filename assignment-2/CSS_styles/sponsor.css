@@ -14,3 +14,23 @@
     width: 166.76px;
     height: 50px;
 }
+
+
+@media screen and (max-width: 390px){
+    main{
+        width: 380px;
+        margin-inline: 10px;
+    }
+    .sponsor-container{
+        margin-block: 50px;
+    }    
+    .sponsors{
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .sponsor img {
+        width: 90;
+        height: 30px;
+    }
+}

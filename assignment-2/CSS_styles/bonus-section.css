@@ -1,8 +1,21 @@
-.contact-section{
+.contact-section {
     text-align: center;
     padding: 100px;
     background-color: #004B88;
 }
-.contact-section .sponsor-content > p{
+
+.contact-section div>p {
     color: white;
+}
+
+@media screen and (max-width: 390px) {
+    main{
+        width: 380px;
+        margin-inline: 10px;
+    }
+    .contact-section {
+        margin: 0;
+        padding: 0;
+        width: 390px;
+    }
 }

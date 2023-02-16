@@ -17,8 +17,6 @@ main {
     padding-inline: 20px;
 }
 
-.photo {}
-
 .our-feature {
     padding-inline: 70px;
 }
@@ -111,4 +109,37 @@ h3 {
     font-weight: 600;
     font-size: 20px;
     color: #727272;
+}
+
+
+@media screen and (max-width: 390px){
+    main{
+        width: 380px;
+        margin-inline: 10px;
+    }
+    .top-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .grid-gellary {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        padding-inline: 20px;
+    }
+    .facts {
+        flex-direction: column;
+        gap: 124px;
+    }
+    .middle-container {
+        flex-direction: column-reverse;
+    }
+    .features{
+        padding: 0;
+    }
+    .feature{
+        padding: 0;
+    }
+    .feature-description-div .description{
+        padding: 0;
+    }
 }

@@ -8,3 +8,14 @@ footer{
 footer p{
     text-align: center;
 }
+
+@media screen and (max-width: 390px) {
+    main{
+        width: 380px;
+        margin-inline: 10px;
+    }
+    footer{
+        width: auto;
+        border-radius: 0;
+    }
+}
