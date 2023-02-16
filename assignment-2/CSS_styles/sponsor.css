@@ -1,0 +1,16 @@
+/* sponsors section styling  */
+.sponsor-container{
+    margin-block: 180px;
+}
+.sponsor-content{
+    text-align: center;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 50px;
+}
+.sponsor img {
+    width: 166.76px;
+    height: 50px;
+}
