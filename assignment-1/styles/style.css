@@ -19,6 +19,15 @@
     color: #444343;
 }
 
+/* Button Hover styling */
+button:hover{
+    background-color: #005FAC;
+    color: white;
+    transform: scale(0.95);
+    border-left: all solid black;
+    
+}
+
 /* Banner section styling */
 .banner-container {
     background-image: url(../images/banner/banner3.png);
@@ -52,6 +61,7 @@
     font-weight: 600;
     font-size: 20px;
     padding: 20px 26px;
+    margin-block: 30px;
 }
 
 .banner-content div {
@@ -193,12 +203,15 @@ ul>li>p {
 .footer-items>.section-description {
     text-align: left;
     color: white;
+   
 }
-
 .social-media {
     width: 30%;
     display: flex;
     justify-content: space-between;
+}
+.social-media>img:hover{
+    transform: rotate(90deg);
 }
 
 .footer-items>input {
