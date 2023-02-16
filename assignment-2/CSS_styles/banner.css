@@ -1,0 +1,97 @@
+/* Utility styling */
+
+body {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* Header styling */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* Navigation styling */
+.nav-bar {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 60px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* Banner styling */
+
+.banner-section {
+    width: 1440px;
+    margin: auto;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.banner-content .description{
+    padding-inline: 300px;
+    padding-top: 30px;
+    text-align: center;
+}
+.banner-image{
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.banner-image > img{
+    width: 1440px;
+    height: 700px;
+}
