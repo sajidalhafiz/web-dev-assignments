@@ -75,13 +75,17 @@
         </nav>
 
         <!-- banner section -->
-        <div class="p-4 static">
-            <img class="mx-auto w-full" src="images/banner.png" alt="">
-            <div class="absolute top-1/3 left-1/3 text-center">
-                <h1 class="text-5xl font-extrabold font-heading">We Provide Effective Legal Solutions</h1>
-                <p class="font-paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+        <div class="p-4 w-full sm:relative flex flex-col-reverse sm:block">
+            <div class="absolute">
+                <img class="mx-auto w-full" src="images/banner.png" alt="">
+            </div>
+            <div class="w-1/2 absolute translate-x-1/2 translate-y-full text-center sm:text-white">
+                <h1 class="text-4xl sm:text-5xl font-extrabold font-heading pb-6 pt-4">We Provide Effective Legal Solutions</h1>
+                <p class="font-paragraph pb-6 text-sm sm:text-base">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour.</p>
-                <input type="text" class="px-4 py-2"><button>Search</button>
+                <input type="text" class="mb-3 px-6 py-4 bg-slate-200 sm:bg-white outline-none rounded-lg font-normal text-sm w-full sm:w-2/3" placeholder="Search your services">
+                <button class="ms-3 text-white bg-[#B68C5A] hover:bg-[#000000] focus:outline-none font-medium rounded-lg text-sm px-6 py-4 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-[#B68C5A]">Search</button>
             </div>
         </div>
     </header>
