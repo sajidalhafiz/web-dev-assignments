@@ -16,12 +16,12 @@
         /* font-family: 'Poppins', sans-serif; */
         /* font-family: 'EB Garamond', serif; */
     </style> -->
- 
+
 
     <title>Legal Solution Tailwind</title>
 </head>
 
-<body>
+<body class="container mx-auto">
     <header class="max-w-6xl mx-auto">
 
         <nav class="bg-white border-gray-200 dark:bg-gray-900">
@@ -75,23 +75,34 @@
         </nav>
 
         <!-- banner section -->
-        <div class="p-4 w-full sm:relative flex flex-col-reverse sm:block">
-            <div class="absolute">
-                <img class="mx-auto w-full" src="images/banner.png" alt="">
-            </div>
-            <div class="w-1/2 absolute translate-x-1/2 translate-y-full text-center sm:text-white">
-                <h1 class="text-4xl sm:text-5xl font-extrabold font-heading pb-6 pt-4">We Provide Effective Legal Solutions</h1>
+        <div class="p-4 w-full flex flex-col-reverse sm:relative">
+
+            <img class="w-full" src="images/banner.png" alt="">
+
+            <div class="w-1/2 sm:absolute sm:translate-x-1/2 sm:translate-y-full text-center sm:text-white">
+                <h1 class="text-4xl sm:text-5xl font-extrabold font-heading pb-6 pt-4 sm:pt-0">We Provide Effective
+                    Legal Solutions</h1>
                 <p class="font-paragraph pb-6 text-sm sm:text-base">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour.</p>
-                <input type="text" class="mb-3 px-6 py-4 bg-slate-200 sm:bg-white outline-none rounded-lg font-normal text-sm w-full sm:w-2/3" placeholder="Search your services">
-                <button class="ms-3 text-white bg-[#B68C5A] hover:bg-[#000000] focus:outline-none font-medium rounded-lg text-sm px-6 py-4 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-[#B68C5A]">Search</button>
+                <input type="text"
+                    class="mb-3 px-6 py-4 bg-slate-200 sm:bg-white outline-none rounded-lg font-normal text-sm w-full sm:w-2/3"
+                    placeholder="Search your services">
+                <button
+                    class="ms-3 text-white bg-[#B68C5A] hover:bg-[#000000] focus:outline-none font-medium rounded-lg text-sm px-6 py-4 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-[#B68C5A]">Search</button>
             </div>
         </div>
     </header>
     <main>
         <!-- legal area section -->
-        <section></section>
+        <section>
+            <!-- section heading -->
+            <div>
+                <h2 class="text-4xl font-extrabold font-heading">The Legal Practice Area</h2 class="text-4xl">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+            </div>
+        </section>
         <!-- comment section -->
         <section></section>
         <!-- faq section -->
