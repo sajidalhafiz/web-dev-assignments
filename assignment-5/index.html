@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- header title -->
+        <div>
+            <h1>Interactive</h1>
+            <h4>Geometry Genius</h4>
+        </div>
+        <!-- blog btn takes to question answer page -->
+        <button class="blog-btn" id="blog">Blog</button>
+    </header>
+    <main>
+        <!-- geometric shapes -->
+        <div class="calculation-section">
+            <!-- triangle card -->
+            <div class="card">
+                <!-- card thumbnail -->
+                <div class="thumbnail"><img src="images/triangle.png"></div>
+                <!-- card body -->
+                <div class="card-body">
+                    <!-- name of shape -->
+                    <h2>Triangle</h2>
+                    <!-- law of shape -->
+                    <p>Area (A) = 0.5 x b x h</p>
+                    <!-- input values -->
+                    <div class="input-values">
+                        <p>b = <span id="b-value">0</span> cm</p>
+                        <p>h = <span id="h-value">0</span> cm</p>
+                        <!-- value update btn -->
+                        <button class="edit-btn" id="triangle-edit-btn"><img src="images/edit 2.png" alt=""></button>
+                    </div>
+                    <!-- dynamic html elements for input -->
+                    <div class="input-fields" id="triangle-input-div">
+                        <p>b <input class="input-field" id="input-b" type="number"> cm</p>
+                        <p>h <input class="input-field" id="input-h" type="number"> cm</p>
+
+
+                        <!-- confirm btn -->
+                        <button class="confirm-btn" id="triangle-confirm-btn"><img src="images/check 1.png" alt=""></button>
+                    </div>
+                    <!-- calculate btn -->
+                    <button class="calculate" id="triangle-calculation" disabled>Calculate</button>
+                </div>
+            </div>
+            <div class="card">
+                <!-- card thumbnail -->
+                <div class="thumbnail"><img src="images/rectangle.png"></div>
+                <!-- card body -->
+                <div class="card-body">
+                    <!-- name of shape -->
+                    <h2>Rectangle</h2>
+                    <!-- law of shape -->
+                    <p>Area (A) = w x l</p>
+                    <!-- input values -->
+                    <div class="input-values">
+                        <p>w = <span id="w-value">0</span> cm</p>
+                        <p>l = <span id="l-value">0</span> cm</p>
+                        <!-- value update btn -->
+                        <button class="edit-btn" id="rectangle-edit-btn"><img src="images/edit 2.png" alt=""></button>
+                    </div>
+                    <!-- dynamic html elements for input -->
+                    <div class="input-fields" id="rectangle-input-div">
+                        <p>b <input class="input-field" id="input-w" type="number"> cm</p>
+                        <p>h <input class="input-field" id="input-l" type="number"> cm</p>
+
+
+                        <!-- confirm btn -->
+                        <button class="confirm-btn" id="rectangle-confirm-btn"><img src="images/check 1.png" alt=""></button>
+                    </div>
+                    <!-- calculate btn -->
+                    <button class="calculate" id="rectangle-calculation" disabled>Calculate</button>
+                </div>
+            </div>
+            <div class="card">
+                <!-- card thumbnail -->
+                <div class="thumbnail"><img src="images/parallelogram.png"></div>
+                <!-- card body -->
+                <div class="card-body">
+                    <!-- name of shape -->
+                    <h2>Parallelogram</h2>
+                    <!-- law of shape -->
+                    <p>Area (A) = b x h</p>
+                    <!-- input values -->
+                    <div class="input-values">
+                        <p>b = <span id="parallelogram-b-value">0</span> cm</p>
+                        <p>h = <span id="parallelogram-h-value">0</span> cm</p>
+                        <!-- value update btn -->
+                        <button class="edit-btn" id="parallelogram-edit-btn"><img src="images/edit 2.png" alt=""></button>
+                    </div>
+                    <!-- dynamic html elements for input -->
+                    <div class="input-fields" id="parallelogram-input-div">
+                        <p>b <input class="input-field" id="parallelogram-input-b" type="number"> cm</p>
+                        <p>h <input class="input-field" id="parallelogram-input-h" type="number"> cm</p>
+
+
+                        <!-- confirm btn -->
+                        <button class="confirm-btn" id="parallelogram-confirm-btn"><img src="images/check 1.png" alt=""></button>
+                    </div>
+                    <!-- calculate btn -->
+                    <button class="calculate" id="parallelogram-calculation" disabled>Calculate</button>
+                </div>
+            </div>
+            <div class="card">
+                <!-- card thumbnail -->
+                <div class="thumbnail"><img src="images/rhombus.png"></div>
+                <!-- card body -->
+                <div class="card-body">
+                    <!-- name of shape -->
+                    <h2>Rhombus</h2>
+                    <!-- law of shape -->
+                    <p>Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
+                    <!-- input values -->
+                    <div class="input-values">
+                        <p>d<sub>1</sub> = <span id="rhombus-d1-value">0</span> cm</p>
+                        <p>d<sub>2</sub> = <span id="rhombus-d2-value">0</span> cm</p>
+                        <!-- value update btn -->
+                        <button class="edit-btn" id="rhombus-edit-btn"><img src="images/edit 2.png" alt=""></button>
+                    </div>
+                    <!-- dynamic html elements for input -->
+                    <div class="input-fields" id="rhombus-input-div">
+                        <p>d<sub>1</sub> <input class="input-field" id="rhombus-input-d1" type="number"> cm</p>
+                        <p>d<sub>2</sub> <input class="input-field" id="rhombus-input-d2" type="number"> cm</p>
+
+
+                        <!-- confirm btn -->
+                        <button class="confirm-btn" id="rhombus-confirm-btn"><img src="images/check 1.png" alt=""></button>
+                    </div>
+                    <!-- calculate btn -->
+                    <button class="calculate" id="rhombus-calculation" disabled>Calculate</button>
+                </div>
+            </div>
+            <div class="card">
+                <!-- card thumbnail -->
+                <div class="thumbnail"><img src="images/pentagon.png"></div>
+                <!-- card body -->
+                <div class="card-body">
+                    <!-- name of shape -->
+                    <h2>Pentagon</h2>
+                    <!-- law of shape -->
+                    <p>Area (A) = 0.5 x p x b</p>
+                    <!-- input values -->
+                    <div class="input-values">
+                        <p>p = <span id="pentagon-p-value">0</span> cm</p>
+                        <p>b = <span id="pentagon-b-value">0</span> cm</p>
+                        <!-- value update btn -->
+                        <button class="edit-btn" id="pentagon-edit-btn"><img src="images/edit 2.png" alt=""></button>
+                    </div>
+                    <!-- dynamic html elements for input -->
+                    <div class="input-fields" id="pentagon-input-div">
+                        <p>p <input class="input-field" id="pentagon-input-p" type="number"> cm</p>
+                        <p>b <input class="input-field" id="pentagon-input-b" type="number"> cm</p>
+
+
+                        <!-- confirm btn -->
+                        <button class="confirm-btn" id="pentagon-confirm-btn"><img src="images/check 1.png" alt=""></button>
+                    </div>
+                    <!-- calculate btn -->
+                    <button class="calculate" id="pentagon-calculation" disabled>Calculate</button>
+                </div>
+            </div>
+            <div class="card">
+                <!-- card thumbnail -->
+                <div class="thumbnail"><img src="images/ellipse.png"></div>
+                <!-- card body -->
+                <div class="card-body">
+                    <!-- name of shape -->
+                    <h2>Ellipse</h2>
+                    <!-- law of shape -->
+                    <p>Area (A) = &#960; x a x b</p>
+                    <!-- input values -->
+                    <div class="input-values">
+                        <p>a = <span id="ellipse-a-value">0</span> cm</p>
+                        <p>b = <span id="ellipse-b-value">0</span> cm</p>
+                        <!-- value update btn -->
+                        <button class="edit-btn" id="ellipse-edit-btn"><img src="images/edit 2.png" alt=""></button>
+                    </div>
+                    <!-- dynamic html elements for input -->
+                    <div class="input-fields" id="ellipse-input-div">
+                        <p>a <input class="input-field" id="ellipse-input-a" type="number"> cm</p>
+                        <p>b <input class="input-field" id="ellipse-input-b" type="number"> cm</p>
+
+
+                        <!-- confirm btn -->
+                        <button class="confirm-btn" id="ellipse-confirm-btn"><img src="images/check 1.png" alt=""></button>
+                    </div>
+                    <!-- calculate btn -->
+                    <button class="calculate" id="ellipse-calculation" disabled>Calculate</button>
+                </div>
+            </div>
+        </div>
+        <!-- calculation results -->
+        <div class="area-calculation">
+            <div>
+                <h2 style="text-decoration: underline;">Area Calculation</h2>
+            </div>
+            <!-- area calculation result section -->
+            <div>
+                <ol id="result-list">
+                </ol>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('blog').addEventListener('click', function(){
+            window.location.href = 'blog.html';
+        });
+    </script>
+    <script src="js/utility.js"></script>
+    <script src="js/triangle.js"></script>
+    <script src="js/rectangle.js"></script>
+    <script src="js/parallelogram.js"></script>
+    <script src="js/rhombus.js"></script>
+    <script src="js/pentagon.js"></script>
+    <script src="js/ellipse.js"></script>
+    <script src="js/randomBg.js"></script>
+    
+</body>
+
+</html>

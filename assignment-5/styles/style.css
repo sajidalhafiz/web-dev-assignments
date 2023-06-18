@@ -1,0 +1,196 @@
+body {
+    margin: auto;
+    padding: 50px;
+    color: white;
+    background: #1c1d1d;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 1200px;
+
+}
+
+/* Title section */
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+}
+img{
+    width: 100px;
+}
+.blog-btn {
+    padding: 9px 38px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background: #1090D8;
+    border-radius: 8px;
+    border: none;
+    height: 48px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: rgba(16, 144, 216, 0.1);
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/* ================================== */
+/* Card styling */
+.thumbnail {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.edit-btn {
+    /* background-color: #1c1d1d; */
+    border: none;
+    background: none;
+}
+
+.confirm-btn {
+    background: #1090D8;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+}
+
+.edit-btn img, .confirm-btn img{
+    width: fit-content;
+}
+
+.input-field {
+    background: #F1F1F1;
+    border-radius: 4px;
+    height: 28px;
+    width: 32px;
+    border: none;
+    outline: none;
+    padding-left: 4px;
+}
+
+.calculate {
+    background: #1090D8;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    padding: 16px 64px;
+}
+
+.input-values {
+    display: flex;
+    gap: 12px;
+}
+
+.input-fields {
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    gap: 8px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    padding: 32px;
+    background: #2a2d2f;
+    border-radius: 8px;
+}
+
+/* =========================================== */
+/* calculation section */
+.calculation-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 12px;
+}
+
+/* =========================================== */
+/* area calculation section */
+.area-calculation {
+    background: #2a2d2f;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    width: auto; 
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.convert-btn {
+    background: #1090D8;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+    font-size: 12px;
+    color: white;
+    padding: 4px 16px;
+}
+
+/* ============================================= */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+/* Responsive styling for small device*/
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+        width: 440px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .blog-btn {
+        padding-inline: 20px;
+        font-size: 14px;
+    }
+    header {
+        margin-bottom: 12px;
+    }
+    /* calculation section responsive */
+    .calculation-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main{
+        flex-direction: column;
+        gap: 24px;
+    }
+}

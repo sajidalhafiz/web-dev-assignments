@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="styles/blog.css">
+</head>
+
+<body>
+    <header>
+        <h1>Important</h1>
+        <h2>Questions & Answers</h2>
+    </header>
+    <main>
+        <div class="blog-div">
+            <h3>Q-1: What is DOM? What is the purpose of DOM?</h3>
+            <hr>
+            <p class="description">DOM - Document Object Model is actually a programming interface where we can manipulate the webpage
+                structure, style, and content. The purpose of DOM is to access and manipulate HTML documents in a
+                browser using a scripting language such as JavaScript.</p>
+        </div>
+        <div class="blog-div">
+            <h3>Q-2: How to select DOM elements?</h3>
+            <hr>
+            <p class="description">There are a few ways to select DOM elements:</p>
+            <ol>
+                <li>getElementById(): The method access the element by using the element id.</li>
+                <li>getElementByClassName(): The method access the collection of elements by using the class name of the elements.</li>
+                <li>getElementByTagName(): The method access the element using the element tag name.</li>
+                <li>querySelector(): The method selects the first element from the document when it is called using the class name.</li>
+                <li>querySelectorAll(): The method returns a collection of selected elements.</li>
+            </ol>
+        </div>
+        <div class="blog-div">
+            <h3>Q-3: What is event bubble?</h3>
+            <hr>
+            <p class="description">Event bubble is a concept used in DOM. When an event handler is set to an element, the event triggers that element and bubbles the event to its parent element.</p>
+            <p class="description">It has three phases:</p>
+            <ol>
+                <li>Capture phase: In this phase, event is captured in the target element.</li>
+                <li>Target phase: Here, performs the event of the target element and starts bubbling.</li>
+                <li>Bubble phase: If there are events in the parent element, the bubbling phase performs the events.</li>
+            </ol>
+        </div>
+        <div class="blog-div">
+            <h3>Q-4: What is the callback function and its uses?</h3>
+            <hr>
+            <p class="description">When a function is passed as an argument of another function is the callback function. It is used where one function should wait for the other function. </p>
+        </div>
+    </main>
+</body>
+
+</html>
